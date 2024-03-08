@@ -1,6 +1,6 @@
 %global debug_package %{nil}
 
-%bcond_without bootstrap2
+%bcond_with bootstrap2
 
 # Run tests in check section
 %bcond_with check
@@ -15,7 +15,7 @@ Version:		2023.1.7
 Summary:	Staticcheck - The advanced Go linter
 Name:		golang-honnef-tools
 
-Release:	1
+Release:	2
 Source0:	https://github.com/dominikh/go-tools/archive/%{version}/go-tools-%{version}.tar.gz
 %if %{with bootstrap2}
 # Generated from Source100
