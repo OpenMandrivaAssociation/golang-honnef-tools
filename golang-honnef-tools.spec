@@ -16,7 +16,7 @@ Name:		golang-honnef-tools
 Release:	2
 Source0:	https://github.com/dominikh/go-tools/archive/%{version}/go-tools-%{version}.tar.gz
 URL:		https://github.com/dominikh/go-tools
-License:	GPL
+License:	MIT and BSD with advertising
 Group:		Development/Other
 BuildRequires:	compiler(go-compiler)
 BuildRequires:	golang(github.com/BurntSushi/toml)
